@@ -34,6 +34,7 @@ but without distinguishing between canopy species.
 
 ``` r
 recruitment_niche_test (Amoladeras_int, Amoladeras_cover)
+#> P-values are unadjusted for multiple tests
 #> Warning: Different tests were used for different canopy-recruit pairs. Check column Test_type
 #>                   Recruit  Fr       Av  Fro       Ao   testability Significance
 #> 1    Artemisia_barrelieri  36 3073.008   54 6926.992  7.598575e-47 5.663873e-02
