@@ -31,6 +31,7 @@ but without distinguishing between recruit species.
 
 ``` r
 canopy_service_test(Amoladeras_int, Amoladeras_cover)
+#> P-values are unadjusted for multiple tests
 #> Different tests were used for different canopy-recruit pairs. Check column Test_type
 #>                   Canopy  Fc       Ac  Fro       Ao testability  Significance
 #> 1   Artemisia_barrelieri  18   1.0000 5111 6926.992           0  3.365852e-19

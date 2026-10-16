@@ -98,9 +98,9 @@ a graph representing a network of plant-plant interactions.
 # corresponds to the scaled frequency of recruitment (*Fcr*):
 visu_net(Amoladeras_int, Amoladeras_cover, int_type="rec", weight="Fcr", mode="uni", scale_w=0.01)
 
-#> IGRAPH d20d855 DNW- 24 221 -- 
+#> IGRAPH ada07f7 DNW- 24 221 -- 
 #> + attr: name (v/c), weight (e/n)
-#> + edges from d20d855 (vertex names):
+#> + edges from ada07f7 (vertex names):
 #>  [1] Artemisia_barrelieri ->Artemisia_barrelieri
 #>  [2] Lygeum_spartum       ->Artemisia_barrelieri
 #>  [3] Ononis_natrix        ->Artemisia_barrelieri
@@ -115,9 +115,9 @@ visu_net(Amoladeras_int, Amoladeras_cover, int_type="rec", weight="Fcr", mode="u
 # scaled *Ns* index:
 visu_net(Amoladeras_int, Amoladeras_cover, int_type="fac", weight="Ns", mode="uni", scale_w=5)
 
-#> IGRAPH f13e416 DNW- 21 94 -- 
+#> IGRAPH 91dce93 DNW- 21 94 -- 
 #> + attr: name (v/c), weight (e/n)
-#> + edges from f13e416 (vertex names):
+#> + edges from 91dce93 (vertex names):
 #>  [1] Artemisia_barrelieri ->Artemisia_barrelieri
 #>  [2] Helichrysum_stoechas ->Artemisia_barrelieri
 #>  [3] Phagnalon_saxatile   ->Artemisia_barrelieri
@@ -138,9 +138,9 @@ visu_net(Amoladeras_int, Amoladeras_cover, int_type="fac", weight="Ns", mode="bi
 # width corresponds to the scaled *RII* index:
 visu_net(Amoladeras_int, Amoladeras_cover, int_type="comp", weight="RII", mode="uni", scale_w=5)
 
-#> IGRAPH 971553a DNW- 17 36 -- 
+#> IGRAPH 4ca5786 DNW- 17 36 -- 
 #> + attr: name (v/c), weight (e/n)
-#> + edges from 971553a (vertex names):
+#> + edges from 4ca5786 (vertex names):
 #>  [1] Ononis_natrix       ->Asparagus_albus    
 #>  [2] Thymus_hyemalis     ->Asparagus_albus    
 #>  [3] Ononis_natrix       ->Ballota_hirsuta    
