@@ -27,6 +27,7 @@ a plot with teh different species role
 ``` r
 
 visu_funtopol_rec(Amoladeras_int,Amoladeras_cover)
+#> P-values are unadjusted for multiple tests
 #> Different tests were used for different canopy-recruit pairs.
 #>               Check column Test_type
 

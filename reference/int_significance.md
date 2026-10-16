@@ -120,6 +120,7 @@ interaction with the following information:
 ``` r
 
 int_signif_rec <- int_significance(Amoladeras_int, Amoladeras_cover, int_type = "rec")
+#> P-values are unadjusted for multiple tests
 #> Different tests were used for different canopy-recruit pairs.
 #>               Check column Test_type
 head(int_signif_rec)
@@ -139,6 +140,7 @@ head(int_signif_rec)
 #> 13 2.337311e-04  Binomial  Enhancing
 
 int_signif_fac <- int_significance(Amoladeras_int, Amoladeras_cover, int_type = "fac")
+#> P-values are unadjusted for multiple tests
 #> Different tests were used for different canopy-recruit pairs.
 #>               Check column Test_type
 head(int_signif_fac)
@@ -158,6 +160,7 @@ head(int_signif_fac)
 #> 10  6.130318e-14 3.614203e-03   Binomial  Enhancing
 
 int_signif_comp <- int_significance(Amoladeras_int, Amoladeras_cover, int_type = "comp")
+#> P-values are unadjusted for multiple tests
 #> Different tests were used for different canopy-recruit pairs.
 #>               Check column Test_type
 head(int_signif_comp)
